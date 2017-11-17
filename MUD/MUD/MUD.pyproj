@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3e70f9ac-9de5-40c6-92eb-7b35a8634ec3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MUD.py</StartupFile>
+    <StartupFile>JsonConfig.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="MUD.py" />
+    <Compile Include="Gerenciador.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cliente.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Historia.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JsonConfig.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

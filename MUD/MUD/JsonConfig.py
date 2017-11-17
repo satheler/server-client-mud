@@ -5,8 +5,8 @@ class CustomEncoder(json.JSONEncoder): #Precisa ser implementado para grafos com
 
     def default(self, o): #Método padrão a ser implementado
 
-         if isinstance(o, datetime): #retorna se a data for uma instância de datatime / comparações para separar o retorno de cada classe
+         if isinstance(o, Historia): #retorna se a data for uma instância de historia / comparações para separar o retorno de cada classe
  
-             return {'__datetime__': o.replace(microsecond=0).isoformat()} 
+             return {'__Historia__': o.__dict__} 
  
          return {'__{}__'.format(o.__class__.__name__): o.__dict__} #retorna os dados de outra classe
