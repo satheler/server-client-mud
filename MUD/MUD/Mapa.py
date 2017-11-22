@@ -1,6 +1,12 @@
+from json import *
 class Mapa(object):
-    def __init__(self, direcao):
-        self.direcao = direcao
+    pass
+    direcao = [None]
+    salas = [None]
+
+    def __init__(self, arquivo):
+        self.direcao = arquivo
+        self.salas = arquivo
         
 
 

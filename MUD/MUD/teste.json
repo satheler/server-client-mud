@@ -1,3 +1,12 @@
 {
- "Historia" : "Ola, seja Bem-Vindo. Tu precisa decidir se vai pro sul ou pro norte" 
+ "Historia" : {
+        "text" : "Ola, seja Bem-Vindo. Tu precisa decidir se vai pro sul ou pro norte",
+        "Opcao":{
+            "text":[ "sul", "norte"],
+            "Segmento":{
+                "text": "Você escolheu Sul"
+
+            }
+        }
+    } 
 }
