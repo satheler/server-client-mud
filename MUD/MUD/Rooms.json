@@ -2,21 +2,27 @@
     "Unipampa": {
         "description": "Voce esta na UNIPAMPA.",
         "exits": {
-            "doguinho": "Doguinho"
+            "norte": "Beer",
+            "leste": "Doguinho"
         }
     },
     "Doguinho": {
-        "description": "Agora você esta no doguinho. Saiba que o cachorro quente e 1 real. Aproveite! Mas volte para a UNIPAMPA antes que o intervalo acabe.",
+        "description": "Saiba que o cachorro quente e 1 real. Aproveite! Mas volte para a UNIPAMPA antes que o intervalo acabe.",
         "exits": {
-            "unipampa": "Unipampa",
-            "point10": "Point10"
+            "oeste": "Unipampa"
         }
     },
     "Point10": {
-        "description": "Agora você esta no Point10. Saiba que a cerveja aqui e um roubo, compre uma e venda seu rim. Caso voce beba, nao recomendo ir para a UNIPAMPA",
+        "description": "Saiba que a cerveja aqui e um roubo, compre uma e venda seu rim. Caso voce beba, nao recomendo ir para a UNIPAMPA",
         "exits": {
-            "unipampa": "Unipampa",
-            "doguinho": "Doguinho"
+            "leste": "Unipampa"
+        }
+    },
+    "Beer" : {
+        "description" : "Bora beber!",
+        "exits" :{
+            "sul": "Unipampa"
         }
     }
+    
 }

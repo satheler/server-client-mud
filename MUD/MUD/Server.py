@@ -109,8 +109,8 @@ class Server(object):
 
                 # send the player back the list of possible commands
                 self.server.send_message(id, "Comandos:")
-                self.server.send_message(id, "  falar <mensagem>   - Diz algo em voz alta. Por exemplo 'Hi Hi Guys'")
-                self.server.send_message(id, "  observar           - Olha aos arredores.")
+                self.server.send_message(id, "  falar <mensagem>      - Diz algo em voz alta. Por exemplo 'Hi Hi Guys'")
+                self.server.send_message(id, "  observar              - Olha aos arredores.")
                 self.server.send_message(id, "  caminhar <lugar>      - Anda para o caminho especificado, e.g. 'caminhar unipampa'")
 
             # 'say' command
@@ -121,7 +121,7 @@ class Server(object):
                     # if they're in the same room as the player
                     if self.players[pid]["room"] == self.players[id]["room"]:
                         # send them a message telling them what the player said
-                        self.server.send_message(pid, "{} says: {}".format(self.players[id]["name"], params))
+                        self.server.send_message(pid, "{} disse: {}".format(self.players[id]["name"], params))
 
             # 'look' command
             elif command == "observar":
@@ -146,7 +146,7 @@ class Server(object):
                 self.server.send_message(id, "Jogadores nesta area: {}".format(", ".join(playershere)))
 
                 # send player a message containing the list of exits from this room
-                self.server.send_message(id, "As saidas sao: {}".format(", ".join(rm["exits"])))
+                self.server.send_message(id, "voce pode ir para {}".format(", ".join(rm["exits"])))
 
 
             elif command == "caminhar":
@@ -185,11 +185,12 @@ class Server(object):
 
                     # send the player a message telling them where they are now
                     self.server.send_message(id, "Voce chegou em '{}'".format(self.players[id]["room"]))
+                    self.server.send_message(id, rm["description"])
 
                 # the specified exit wasn't found in the current room
                 else:
                     # send back an 'unknown exit' message
-                    self.server.send_message(id, "caminho desconhecido '{}'".format(ex))
+                    self.server.send_message(id, "Um elefante com lepra e cancer esta ao '{}'. Sugiro nao seguir esse caminho. Escolha outro.".format(ex))
 
             elif command == "desligar":
                 self.server.shutdown()
