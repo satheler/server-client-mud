@@ -1,0 +1,11 @@
+{
+    "Skeleton": {
+        "description": "A Skeleton",
+        "hp": 1000,
+        "damage": 100,
+        "armor": 20,
+        "drops": { 
+            "itemName": "Brave Gladiator Blade"
+        }       
+    }
+}

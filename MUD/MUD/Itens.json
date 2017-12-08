@@ -1,0 +1,37 @@
+{
+    "Brave Gladiator Blade": {
+        "description": "A giant one-handed sword",
+        "damage": 100,
+        "price": 1000,
+        "type" : "weapon",
+        "equippable" : true
+    },
+    "Dooms Helm of Doom": {
+        "description": "A giant Helm",
+        "armor": 100,
+        "price": 1000,
+        "type" : "armor",
+        "equippable" : true
+    },
+    "Hp Potion": {
+        "description": "A potion that heals 100 hp",
+        "hpHeal": 100,
+        "price": 1000,
+        "type" : "potion",
+        "equippable" : false
+    },
+    "Dooms Boot of Doom": {
+        "description": "A giant Helm",
+        "armor": 100,
+        "price": 1000,
+        "type" : "boot",
+        "equippable" : true
+    },
+    "Dooms arms of Doom": {
+        "description": "A giant Helm",
+        "armor": 100,
+        "price": 1000,
+        "type" : "arm",
+        "equippable" : true
+    }
+}
