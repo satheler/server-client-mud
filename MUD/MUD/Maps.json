@@ -2,39 +2,39 @@
     "Dragon lair": {
         "description": "Dragons everywhere.",
         "type" : "Dungeon"
-    }
+    },
     "Dark Cathedral": {
         "description": "Once was a blessed place, only caos now.",
         "type" : "Dungeon"
-    }
+    },
     "The Upside Down": {
         "description": "Run! this place is not safe.",
         "type" : "Dungeon"
-    }
+    },
     "Plains of The Giants": {
         "description": "Be carefull. Not be crushed!",
         "type" : "City"
-    }
+    },
     "Hunters Camp": {
         "description": "This town is abandoned. Be careful who you meet.",
         "type" : "City"
-    }
+    },
     "Cemitery": {
         "description": "This is an old cemitery where warriors lost their lives in past. Beware of your enemies.",
         "type" : "Dungeon"
-    }
+    },
     "Cemitery": {
         "description": "This is an old cemitery where warriors lost their lives in past. Beware of your enemies.",
         "type" : "Dungeon"
-    }
+    },
     "Alegrete Town": {
         "description": "Take a rest, you are safe.",
         "type" : "City"
-    }
+    },
     "Elf Town": {
         "description": "A beautiful buildings for beatiful elfs. This is a safe spot",
         "type" : "City"
-    }
+    },
     "Green plains": {
         "description": "A lot of creatures building their nest.",
         "type" : "Dungeon"
