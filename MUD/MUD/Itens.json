@@ -78,7 +78,7 @@
     },
     "Dagger": {
         "description": "A simple Dagger.",
-        "damage": 900,
+        "damage": 90,
         "price": 600,
         "type" : "weapon",
         "equippable" : true
