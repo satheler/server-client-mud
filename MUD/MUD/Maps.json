@@ -1,50 +1,70 @@
 {
-    "Dragon lair": {
-        "description": "Dragons everywhere.",
+    "Dragon's lair": {
+        "description": "There's a lot of gold at the other side, but the something between you and the gold...",
         "type" : "Dungeon"
     },
     "Dark Cathedral": {
-        "description": "Once was a blessed place, only caos now.",
+        "description": "Once this was a blessed place, now there is only chaos.",
         "type" : "Dungeon"
     },
     "The Upside Down": {
-        "description": "Run! this place is not safe.",
+        "description": "Everything is darker and full os gross roots. There's something lurking in the shadows...",
         "type" : "Dungeon"
     },
     "Plains of The Giants": {
-        "description": "Be carefull. Not be crushed!",
+        "description": "Be carefull not be crushed!",
         "type" : "City"
     },
     "Hunters Camp": {
-        "description": "This town is abandoned. Be careful who you meet.",
+        "description": "This camp is abandoned, or maybe not. Be careful who you meet.",
         "type" : "City"
     },
     "Cemitery": {
-        "description": "This is an old cemitery where warriors lost their lives in past. Beware of your enemies.",
+        "description": "This is an old cemitery where ancient warriors who lost their lives in the past are buried. Beware of your enemies.",
         "type" : "Dungeon"
     },
     "Alegrete Town": {
-        "description": "Take a rest, you are safe.",
+        "description": "Take a rest, you are safe, if you stand the heat. Maybe pay a visit to the shop.",
         "type" : "City"
     },
     "Elf Town": {
-        "description": "A beautiful buildings for beatiful elfs. This is a safe spot",
+        "description": "A beautiful building, with intricate details, made by beatiful elfs. This is a safe spot.",
         "type" : "City"
     },
     "Green plains": {
-        "description": "A lot of creatures building their nest.",
+        "description": "This is a big open field. A lot of creatures make their nest in here.",
         "type" : "Dungeon"
     },
-    "Demon Hell": {
-        "description": "The peace is too far away.",
+    "Hell's cave": {
+        "description": "Everything is burning in this place. The peace is too far away.",
         "type" : "Dungeon"
     },
     "Nightmare Ruins": {
-        "description": "Your nightmares are real here.",
+        "description": "A bunch of ruined building. Your nightmares are real here.",
         "type" : "Dungeon"
     },
     "Temple of Death": {
-        "description": "Life is something strange.",
+        "description": "This place looks more like a giant skull than a temple. Life is something strange.",
+        "type" : "Dungeon"
+    },
+    "Dark Forest": {
+        "description": "These woods is so dark that can hide basically any kind of creature.",
+        "type" : "Dungeon"
+    },
+    "Forest": {
+        "description": "A road goes through these woods. It looks like the perfect spot for an ambush.",
+        "type" : "Dungeon"
+    },
+    "Montain path": {
+        "description": "Around you there is only tall montains and the road is very winding. Careful not to be caught by surprise.",
+        "type" : "Dungeon"
+    },
+    "Grotesque Swamp": {
+        "description": "It's hard to walk around, everything is damp and moist. There's insects the size of you torso.",
+        "type" : "Dungeon"
+    },
+    "Arid fields": {
+        "description": "This is a big open field of dry plants e sun-baked rocks. It's just too hot here. Not as hot as Alegrete town though.",
         "type" : "Dungeon"
     }
 }

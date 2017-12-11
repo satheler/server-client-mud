@@ -35,184 +35,184 @@
         "equippable" : true
     },
     "Elvish Bow": {
-        "description": "Big bow, causes greater damage.",
-        "armor": 250,
+        "description": "Big bow, causes greater damage than a common bow.",
+        "damage": 130,
         "price": 1500,
         "type" : "weapon",
         "equippable" : true
     },
     "Bow": {
         "description": "A simple bow, made of wood",
-        "armor": 80,
+        "damage": 80,
         "price": 500,
         "type" : "weapon",
         "equippable" : true
     },
-    "Axe": {
-        "description": "A simple axe, made of wood",
-        "armor": 85,
+    "One-handed Axe": {
+        "description": "A simple axe.",
+        "damage": 85,
         "price": 460,
         "type" : "weapon",
         "equippable" : true
     },
-    "Steel ax": {
-        "description": "A powerful and durable ax",
-        "armor": 150,
-        "price": 1000,
+    "Steel Axe": {
+        "description": "A powerful and durable axe.",
+        "damage": 150,
+        "price": 1350,
         "type" : "weapon",
         "equippable" : true
     },
     "Spear": {
-        "description": "A simple spear",
-        "armor": 100,
+        "description": "A simple arrow head spear.",
+        "damage": 115,
         "price": 100,
         "type" : "weapon",
         "equippable" : true
     },
     "Hunting Spear": {
-        "description": "Hunting spear, great for throwing",
-        "armor": 110,
+        "description": "Hunting spear, perfect for fighting dire animals.",
+        "damage": 130,
         "price": 1200,
         "type" : "weapon",
         "equippable" : true
     },
     "Dagger": {
-        "description": "A simple Dagger",
-        "armor": 80,
+        "description": "A simple Dagger.",
+        "damage": 900,
         "price": 600,
         "type" : "weapon",
         "equippable" : true
     },
     "Sickle": {
-        "description": "A powerful Sickle",
-        "armor": 120,
+        "description": "A crop sickle. It's very sharp.",
+        "damage": 120,
         "price": 1000,
         "type" : "weapon",
         "equippable" : true
     },
-    "Arrow Wood": {
-        "description": "Arrow Wood, litle power",
-        "armor": 80,
+    "Wood Arrow": {
+        "description": "An arrow made entirelly of wood, litle power",
+        "damage": 80,
         "price": 600,
         "type" : "weapon",
         "equippable" : true
     },
-    "Silver arrow": {
-        "description": "Silver arrow, mediun power",
-        "armor": 160,
+    "Iron arrow": {
+        "description": "Iron arrow, medium power",
+        "damage": 120,
         "price": 800,
         "type" : "weapon",
         "equippable" : true
     },
-    "Fire arrow": {
-        "description": "Fire arrow, big power",
-        "armor": 240,
+    "Steel arrow": {
+        "description": "Steel arrow, high power",
+        "damage": 160,
         "price": 1200,
         "type" : "weapon",
         "equippable" : true
     },
-    "Wood Sword": {
-        "description": "Sword with litle damage",
-        "armor": 100,
+    "Wooden Sword": {
+        "description": "Sword made out of wood with litle damage. It's a child toy.",
+        "damage": 50,
         "price": 800,
         "type" : "weapon",
         "equippable" : true
     },
     "Silver Sword": {
-        "description": "Sword with big damage",
-        "armor": 110,
-        "price": 1200,
+        "description": "Very shap and intricate blade, has a high  damage",
+        "damage": 180,
+        "price": 1350,
         "type" : "weapon",
         "equippable" : true
     },
     "Magic Sword": {
-        "description": "Very powerful sword",
-        "armor": 110,
-        "price": 1200,
+        "description": "This very powerful blade emanates some kind of energy from it.",
+        "damage": 210,
+        "price": 2000,
         "type" : "weapon",
         "equippable" : true
     },
-    "Sword": {
-        "description": "A simple sword",
-        "armor": 110,
-        "price": 1200,
+    "Iron Sword": {
+        "description": "A simple iron sword",
+        "damage": 115,
+        "price": 900,
         "type" : "weapon",
         "equippable" : true
     },
     "Trident": {
-        "description": "A simple trident",
-        "armor": 100,
+        "description": "A merge of a spear and a 3 pointed fork.",
+        "damage": 140,
         "price": 1300,
         "type" : "weapon",
         "equippable" : true
     },
-    "Beast": {
-        "description": "A simple beast, long alcance",
-        "armor": 110,
-        "price": 1200,
+    "Crossbow": {
+        "description": "A simple crossbow, long range.",
+        "damage": 110,
+        "price": 1250,
         "type" : "weapon",
         "equippable" : true
     },
-    "Big beast": {
-        "description": "A big beast, a range of 100 meters",
-        "armor": 200,
-        "price": 1800,
+    "Heavy Crossbow": {
+        "description": "A big crossbow, high damage and high range.",
+        "damage": 200,
+        "price": 1550,
         "type" : "weapon",
         "equippable" : true
     },
     "Small shield": {
-        "description": "Litle protection",
+        "description": "Litle protection.",
         "armor": 50,
-        "price": 200,
+        "price": 500,
         "type" : "armor",
         "equippable" : true
     },
-    "Wood shield": {
-        "description": "Litle protection, worse than small",
-        "armor": 110,
-        "price": 1200,
+    "Wooden shield": {
+        "description": "A toy shield. Offers little protection.",
+        "armor": 40,
+        "price": 300,
         "type" : "armor",
         "equippable" : true
     },
     "Shield": {
         "description": "A simple shield",
-        "armor": 110,
-        "price": 1200,
+        "armor": 65,
+        "price": 700,
         "type" : "armor",
         "equippable" : true
     },
-    "Big shield": {
-        "description": "Big protection",
-        "armor": 200,
-        "price": 1800,
+    "Tower shield": {
+        "description": "Protects almost your whole body.",
+        "armor": 100,
+        "price": 1300,
         "type" : "armor",
         "equippable" : true
     },
     "Magic shield": {
-        "description": "Better shield",
+        "description": "This shield emanates some kind of protective energy from it.",
         "armor": 450,
-        "price": 2000,
+        "price": 1800,
         "type" : "armor",
         "equippable" : true
     },
     "Steel armor": {
-        "description": "Armor made with steel",
+        "description": "Armor made from steel.",
         "armor": 300,
-        "price": 1500,
+        "price": 1300,
         "type" : "armor",
         "equippable" : true
     },
-    "Leather strap": {
-        "description": "suitable for hunters",
+    "Leather Strap Armor": {
+        "description": "Light armor suitable for hunters",
         "armor": 100,
         "price": 1000,
         "type" : "armor",
         "equippable" : true
     },
-    "Brass Cuirass": {
-        "description": "A valious cuirass",
-        "armor": 110,
-        "price": 1200,
+    "Brass Cuirass Armor": {
+        "description": "A valious cuirass armor",
+        "armor": 320,
+        "price": 1500,
         "type" : "armor",
         "equippable" : true
     },
@@ -237,8 +237,8 @@
         "type" : "potion",
         "equippable" : false
     },
-    "Resuscitate potion": {
-        "description": "This potion can resuscutate you when you die",
+    "Resusrrection potion": {
+        "description": "This potion can resuscitate you when you die.",
         "hpHeal":400,
         "price": 2800,
         "type" : "potion",
