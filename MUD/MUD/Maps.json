@@ -23,10 +23,6 @@
         "description": "This is an old cemitery where warriors lost their lives in past. Beware of your enemies.",
         "type" : "Dungeon"
     },
-    "Cemitery": {
-        "description": "This is an old cemitery where warriors lost their lives in past. Beware of your enemies.",
-        "type" : "Dungeon"
-    },
     "Alegrete Town": {
         "description": "Take a rest, you are safe.",
         "type" : "City"
