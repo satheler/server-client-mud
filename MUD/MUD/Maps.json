@@ -100,5 +100,83 @@
         "description": "Once this was a blessed place, now there is only chaos.",
         "type" : "Dungeon",
         "enemies": [24, 25, 29]
+    },
+    "17": {
+        "name": "Dirty Road",
+        "description": "A pretty common road, full of dust and dirty.",
+        "type" : "Dungeon",
+        "enemies": [2, 5, 3]
+    },
+    "18": {
+        "name": "Dusk Woods",
+        "description": "This dark gray looking forest is full of lurking shadows and weird sounds.",
+        "type" : "Dungeon",
+        "enemies": [7, 6, 12]
+    },
+    "19": {
+        "name": "Dark Cave",
+        "description": "This cave lack any sourse of light, careful where you step... or what.",
+        "type" : "Dungeon",
+        "enemies": [40, 12, 20]
+    },
+    "20": {
+        "name": "Obsidian Tower",
+        "description": "This is a completely smooth and black tower, in the middle of nowhere.",
+        "type" : "Dungeon",
+        "enemies": [19, 27, 25]
+    },
+    "21": {
+        "name": "Blood Lake",
+        "description": "This red lake got this name clearly because of it's water color. It's probably just a high iron concentration on the water.",
+        "type" : "Dungeon",
+        "enemies": [26, 16, 18]
+    },
+    "22": {
+        "name": "Cristal Cave",
+        "description": "The wall of this cave is covered with small semi-transparent stones.",
+        "type" : "Dungeon",
+        "enemies": [14, 10, 12]
+    },
+    "23": {
+        "name": "Sword Graveyard",
+        "description": "This open field is covered with probably more than a thousand swords stuck in it's ground.",
+        "type" : "Dungeon",
+        "enemies": [7, 14, 18]
+    },
+    "24": {
+        "name": "Arid Mountain",
+        "description": "This place lacks most kinds of flora. It's just small to colossal rocks.",
+        "type" : "Dungeon",
+        "enemies": [21, 23, 27]
+    },
+    "25": {
+        "name": "Deacayed Castle",
+        "description": "It used to be a beautiful castle, full of life. Now it's ruins and decay.",
+        "type" : "Dungeon",
+        "enemies": [19, 10, 25]
+    },
+    "26": {
+        "name": "Soulflayer Canyon",
+        "description": "This is a deep canyon where, even in the high sun, it's impossible to see it's bottom.",
+        "type" : "Dungeon",
+        "enemies": [17, 22, 23]
+    },
+    "27": {
+        "name": "Witchwood",
+        "description": "This is a mysterious forest covered in a thick fog. .",
+        "type" : "Dungeon",
+        "enemies": [13, 11, 9]
+    },
+    "28": {
+        "name": "Abandoned Mine",
+        "description": "There's not much more than a some damaged rails, old rail cars and a lot of dust here.",
+        "type" : "Dungeon",
+        "enemies": [4, 20, 24]
+    },
+    "29": {
+        "name": "Catacombs",
+        "description": "An ancient burial chamber of considerable size.",
+        "type" : "Dungeon",
+        "enemies": [1, 10, 25]
     }
 }
