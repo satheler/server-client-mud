@@ -1,70 +1,104 @@
 {
-    "Dragon's lair": {
-        "description": "There's a lot of gold at the other side, but the something between you and the gold...",
-        "type" : "Dungeon"
+    "0": {
+        "name": "Alegrete Town",
+        "description": "Take a rest, you are safe, if you can stand the heat. Maybe pay a visit to the shop.",
+        "type" : "City",
+        "enemies": [2, 5, 7]
     },
-    "Dark Cathedral": {
-        "description": "Once this was a blessed place, now there is only chaos.",
-        "type" : "Dungeon"
-    },
-    "The Upside Down": {
-        "description": "Everything is darker and full os gross roots. There's something lurking in the shadows...",
-        "type" : "Dungeon"
-    },
-    "Plains of The Giants": {
-        "description": "Be carefull not be crushed!",
-        "type" : "City"
-    },
-    "Hunters Camp": {
-        "description": "This camp is abandoned, or maybe not. Be careful who you meet.",
-        "type" : "City"
-    },
-    "Cemitery": {
-        "description": "This is an old cemitery where ancient warriors who lost their lives in the past are buried. Beware of your enemies.",
-        "type" : "Dungeon"
-    },
-    "Alegrete Town": {
-        "description": "Take a rest, you are safe, if you stand the heat. Maybe pay a visit to the shop.",
-        "type" : "City"
-    },
-    "Elf Town": {
-        "description": "A beautiful building, with intricate details, made by beatiful elfs. This is a safe spot.",
-        "type" : "City"
-    },
-    "Green plains": {
-        "description": "This is a big open field. A lot of creatures make their nest in here.",
-        "type" : "Dungeon"
-    },
-    "Hell's cave": {
-        "description": "Everything is burning in this place. The peace is too far away.",
-        "type" : "Dungeon"
-    },
-    "Nightmare Ruins": {
-        "description": "A bunch of ruined building. Your nightmares are real here.",
-        "type" : "Dungeon"
-    },
-    "Temple of Death": {
-        "description": "This place looks more like a giant skull than a temple. Life is something strange.",
-        "type" : "Dungeon"
-    },
-    "Dark Forest": {
-        "description": "These woods is so dark that can hide basically any kind of creature.",
-        "type" : "Dungeon"
-    },
-    "Forest": {
+    "1": {
+        "name": "Forest",
         "description": "A road goes through these woods. It looks like the perfect spot for an ambush.",
-        "type" : "Dungeon"
+        "type" : "Dungeon",
+        "enemies": [2, 5, 7]
     },
-    "Montain path": {
-        "description": "Around you there is only tall montains and the road is very winding. Careful not to be caught by surprise.",
-        "type" : "Dungeon"
+    "2": {
+        "name": "Hunters Camp",
+        "description": "This camp is abandoned, or maybe not. Be careful who you meet.",
+        "type" : "City",
+        "enemies": [5, 2, 3]
     },
-    "Grotesque Swamp": {
-        "description": "It's hard to walk around, everything is damp and moist. There's insects the size of you torso.",
-        "type" : "Dungeon"
+    "3": {
+        "name": "Cemitery",
+        "description": "This is an old cemitery where ancient warriors who lost their lives in the past are buried. Beware of your enemies.",
+        "type" : "Dungeon",
+        "enemies": [0, 1, 5]
     },
-    "Arid fields": {
+    "4": {
+        "name": "Arid fields",
         "description": "This is a big open field of dry plants e sun-baked rocks. It's just too hot here. Not as hot as Alegrete town though.",
-        "type" : "Dungeon"
+        "type" : "Dungeon",
+        "enemies": [2, 6, 8]
+    },
+    "5": {
+        "name": "Elf Town",
+        "description": "A beautiful building, with intricate details, made by beatiful elfs. This is a safe spot.",
+        "type" : "City",
+        "enemies": [2, 6, 8]
+    },
+    "6": {
+        "name": "Green plains",
+        "description": "This is a big open field. A lot of creatures make their nest in here.",
+        "type" : "Dungeon",
+        "enemies": [3, 4, 6]
+    },
+    "7": {
+        "name": "Plains of The Giants",
+        "description": "Be carefull not be crushed!",
+        "type" : "City",
+        "enemies": [17, 22, 23]
+    },
+    "8": {
+        "name": "Dark Forest",
+        "description": "These woods is so dark that can hide basically any kind of creature.",
+        "type" : "Dungeon",
+        "enemies": [12, 11, 9]
+    },
+    "9": {
+        "name": "The Upside Down",
+        "description": "Everything is darker and full os gross roots. There's something lurking in the shadows...",
+        "type" : "Dungeon",
+        "enemies": [10, 13, 16]
+    },
+    "10": {
+        "name": "Hell's cave",
+        "description": "Everything is burning in this place. The peace is too far away.",
+        "type" : "Dungeon",
+        "enemies": [19, 18, 24]
+    },
+    "11": {
+        "name": "Nightmare Ruins",
+        "description": "A bunch of ruined building. Your nightmares are real here.",
+        "type" : "Dungeon",
+        "enemies": [21, 26, 25]
+    },
+    "12": {
+        "name": "Temple of Death",
+        "description": "This place looks more like a giant skull than a temple. Life is something strange.",
+        "type" : "Dungeon",
+        "enemies": [27, 20, 25]
+    },
+    "13": {
+        "name": "Montain path",
+        "description": "Around you there is only tall montains and the road is very winding. Careful not to be caught by surprise.",
+        "type" : "Dungeon",
+        "enemies": [14, 15, 22]
+    },
+    "14": {
+        "name": "Grotesque Swamp",
+        "description": "It's hard to walk around, everything is damp and moist. There's insects the size of you torso.",
+        "type" : "Dungeon",
+        "enemies": [12, 11, 16]
+    },
+    "15": {
+        "name": "Dragon's lair",
+        "description": "There's a lot of gold at the other side, but the something between you and the gold...",
+        "type" : "Dungeon",
+        "enemies": [4, 26, 28]
+    },
+    "16": {
+        "name": "Dark Cathedral",
+        "description": "Once this was a blessed place, now there is only chaos.",
+        "type" : "Dungeon",
+        "enemies": [24, 25, 29]
     }
 }

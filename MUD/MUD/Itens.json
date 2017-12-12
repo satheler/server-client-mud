@@ -1,261 +1,594 @@
 {
-    "Brave Gladiator Blade": {
-        "description": "A giant one-handed sword",
-        "damage": 100,
-        "price": 1000,
-        "type" : "weapon",
-        "equippable" : true
-    },
-    "Dooms Helm of Doom": {
-        "description": "A giant Helm",
-        "armor": 100,
-        "price": 1000,
-        "type" : "armor",
-        "equippable" : true
-    },
-    "Hp Potion": {
-        "description": "A potion that heals 100 hp",
-        "hpHeal": 100,
-        "price": 1000,
-        "type" : "potion",
-        "equippable" : false
-    },
-    "Dooms Boot of Doom": {
-        "description": "A giant Helm",
-        "armor": 100,
-        "price": 1000,
-        "type" : "boot",
-        "equippable" : true
-    },
-    "Dooms arms of Doom": {
-        "description": "A giant Helm",
-        "armor": 100,
-        "price": 1000,
-        "type" : "arm",
-        "equippable" : true
-    },
-    "Elvish Bow": {
-        "description": "Big bow, causes greater damage than a common bow.",
-        "damage": 130,
-        "price": 1500,
-        "type" : "weapon",
-        "equippable" : true
-    },
-    "Bow": {
-        "description": "A simple bow, made of wood",
-        "damage": 80,
-        "price": 500,
-        "type" : "weapon",
-        "equippable" : true
-    },
-    "One-handed Axe": {
-        "description": "A simple axe.",
-        "damage": 85,
-        "price": 460,
-        "type" : "weapon",
-        "equippable" : true
-    },
-    "Steel Axe": {
-        "description": "A powerful and durable axe.",
-        "damage": 150,
-        "price": 1350,
-        "type" : "weapon",
-        "equippable" : true
-    },
-    "Spear": {
-        "description": "A simple arrow head spear.",
-        "damage": 115,
-        "price": 100,
-        "type" : "weapon",
-        "equippable" : true
-    },
-    "Hunting Spear": {
-        "description": "Hunting spear, perfect for fighting dire animals.",
-        "damage": 130,
-        "price": 1200,
-        "type" : "weapon",
-        "equippable" : true
-    },
-    "Dagger": {
-        "description": "A simple Dagger.",
-        "damage": 90,
-        "price": 600,
-        "type" : "weapon",
-        "equippable" : true
-    },
-    "Sickle": {
-        "description": "A crop sickle. It's very sharp.",
-        "damage": 120,
-        "price": 1000,
-        "type" : "weapon",
-        "equippable" : true
-    },
-    "Wood Arrow": {
-        "description": "An arrow made entirelly of wood, litle power",
-        "damage": 80,
-        "price": 600,
-        "type" : "weapon",
-        "equippable" : true
-    },
-    "Iron arrow": {
-        "description": "Iron arrow, medium power",
-        "damage": 120,
-        "price": 800,
-        "type" : "weapon",
-        "equippable" : true
-    },
-    "Steel arrow": {
-        "description": "Steel arrow, high power",
-        "damage": 160,
-        "price": 1200,
-        "type" : "weapon",
-        "equippable" : true
-    },
-    "Wooden Sword": {
+    "0": {
+        "name": "Wooden Sword",
         "description": "Sword made out of wood with litle damage. It's a child toy.",
         "damage": 50,
-        "price": 800,
-        "type" : "weapon",
-        "equippable" : true
+        "price": 100,
+        "type": "weapon",
+        "equippable": true
     },
-    "Silver Sword": {
-        "description": "Very shap and intricate blade, has a high  damage",
-        "damage": 180,
-        "price": 1350,
-        "type" : "weapon",
-        "equippable" : true
+    "1": {
+        "name": "Bow",
+        "description": "A simple bow, made of wood.",
+        "damage": 70,
+        "price": 150,
+        "type": "weapon",
+        "equippable": true
     },
-    "Magic Sword": {
-        "description": "This very powerful blade emanates some kind of energy from it.",
-        "damage": 210,
-        "price": 2000,
-        "type" : "weapon",
-        "equippable" : true
+    "2": {
+        "name": "Dagger",
+        "description": "A simple Dagger.",
+        "damage": 80,
+        "price": 200,
+        "type": "weapon",
+        "equippable": true
     },
-    "Iron Sword": {
-        "description": "A simple iron sword",
-        "damage": 115,
-        "price": 900,
-        "type" : "weapon",
-        "equippable" : true
+    "3": {
+        "name": "Short Sword",
+        "description": "A small short blade, made out of iron.",
+        "damage": 90,
+        "price": 250,
+        "type": "weapon",
+        "equippable": true
     },
-    "Trident": {
-        "description": "A merge of a spear and a 3 pointed fork.",
-        "damage": 140,
-        "price": 1300,
-        "type" : "weapon",
-        "equippable" : true
+    "4": {
+        "name": "One-handed Axe",
+        "description": "A simple axe.",
+        "damage": 95,
+        "price": 300,
+        "type": "weapon",
+        "equippable": true
     },
-    "Crossbow": {
+    "5": {
+        "name": "Crossbow",
         "description": "A simple crossbow, long range.",
+        "damage": 105,
+        "price": 350,
+        "type": "weapon",
+        "equippable": true
+    },
+    "6": {
+        "name": "Sickle",
+        "description": "A crop sickle. It's very sharp.",
         "damage": 110,
-        "price": 1250,
-        "type" : "weapon",
-        "equippable" : true
+        "price": 400,
+        "type": "weapon",
+        "equippable": true
     },
-    "Heavy Crossbow": {
-        "description": "A big crossbow, high damage and high range.",
-        "damage": 200,
-        "price": 1550,
-        "type" : "weapon",
-        "equippable" : true
+    "7": {
+        "name": "Spear",
+        "description": "A simple arrow head spear.",
+        "damage": 120,
+        "price": 450,
+        "type": "weapon",
+        "equippable": true
     },
-    "Small shield": {
-        "description": "Litle protection.",
-        "armor": 50,
+    "8": {
+        "name": "Long Sword",
+        "description": "A simple iron sword.",
+        "damage": 130,
         "price": 500,
-        "type" : "armor",
-        "equippable" : true
+        "type": "weapon",
+        "equippable": true
     },
-    "Wooden shield": {
+    "9": {
+        "name": "Hunting Spear",
+        "description": "Hunting spear, perfect for fighting dire animals.",
+        "damage": 135,
+        "price": 550,
+        "type": "weapon",
+        "equippable": true
+    },
+    "10": {
+        "name": "Elvish Bow",
+        "description": "Big bow, causes greater damage than a common bow.",
+        "damage": 140,
+        "price": 600,
+        "type": "weapon",
+        "equippable": true
+    },
+    "11": {
+        "name": "Gladiator Blade",
+        "description": "A giant one-handed sword, roman style.",
+        "damage": 150,
+        "price": 650,
+        "type": "weapon",
+        "equippable": true
+    },
+    "12": {
+        "name": "Trident",
+        "description": "A merge of a spear and a 3 pointed fork.",
+        "damage": 155,
+        "price": 700,
+        "type": "weapon",
+        "equippable": true
+    },
+    "13": {
+        "name": "Steel Axe",
+        "description": "A powerful and durable axe. Made from steel.",
+        "damage": 165,
+        "price": 750,
+        "type": "weapon",
+        "equippable": true
+    },
+    "14": {
+        "name": "Silver Sword",
+        "description": "Very shap and intricate blade, has a high damage.",
+        "damage": 180,
+        "price": 800,
+        "type": "weapon",
+        "equippable": true
+    },
+    "15": {
+        "name": "Heavy Crossbow",
+        "description": "A big crossbow, high damage and high range.",
+        "damage": 190,
+        "price": 850,
+        "type": "weapon",
+        "equippable": true
+    },
+    "16": {
+        "name": "Gold Sword",
+        "description": "Very shap and intricate golden blade, has a very high damage.",
+        "damage": 200,
+        "price": 900,
+        "type": "weapon",
+        "equippable": true
+    },
+    "17": {
+        "name": "Giant Sword",
+        "description": "A huge and sharp steel sword, very well balanced.",
+        "damage": 210,
+        "price": 950,
+        "type": "weapon",
+        "equippable": true
+    },
+    "18": {
+        "name": "Magic Sword",
+        "description": "This very powerful blade emanates some kind of energy from it.",
+        "damage": 230,
+        "price": 1500,
+        "type": "weapon",
+        "equippable": true
+    },
+    "19": {
+        "name": "Runic Bastard Sword",
+        "description": "This sword has a large, sharp blade, with carved blue-shinning runes on it's body. You can sense a very powerful force.",
+        "damage": 250,
+        "price": 2000,
+        "type": "weapon",
+        "equippable": true
+    },
+    "20": {
+        "name": "Wooden shield",
         "description": "A toy shield. Offers little protection.",
         "armor": 40,
-        "price": 300,
-        "type" : "armor",
-        "equippable" : true
+        "price": 100,
+        "type": "armor",
+        "equippable": true
     },
-    "Shield": {
-        "description": "A simple shield",
+    "21": {
+        "name": "Small shield",
+        "description": "Litle protection.",
+        "armor": 50,
+        "price": 200,
+        "type": "armor",
+        "equippable": true
+    },
+    "22": {
+        "name": "Shield",
+        "description": "A simple shield, made out of iron and wood.",
         "armor": 65,
-        "price": 700,
-        "type" : "armor",
-        "equippable" : true
+        "price": 300,
+        "type": "armor",
+        "equippable": true
     },
-    "Tower shield": {
+    "23": {
+        "name": "Tower shield",
         "description": "Protects almost your whole body.",
+        "armor": 80,
+        "price": 400,
+        "type": "armor",
+        "equippable": true
+    },
+    "24": {
+        "name": "Steel Shield",
+        "description": "A heavy shield, made out of steel.",
         "armor": 100,
-        "price": 1300,
-        "type" : "armor",
-        "equippable" : true
+        "price": 500,
+        "type": "armor",
+        "equippable": true
     },
-    "Magic shield": {
-        "description": "This shield emanates some kind of protective energy from it.",
-        "armor": 450,
-        "price": 1800,
-        "type" : "armor",
-        "equippable" : true
+    "25": {
+        "name": "Silver Shield",
+        "description": "A well balanced and resilient shield.",
+        "armor": 120,
+        "price": 600,
+        "type": "armor",
+        "equippable": true
     },
-    "Steel armor": {
-        "description": "Armor made from steel.",
-        "armor": 300,
-        "price": 1300,
-        "type" : "armor",
-        "equippable" : true
+    "26": {
+        "name": "Gold Shield",
+        "description": "A very well balanced and resilient golden shield.",
+        "armor": 140,
+        "price": 700,
+        "type": "armor",
+        "equippable": true
     },
-    "Leather Strap Armor": {
-        "description": "Light armor suitable for hunters",
-        "armor": 100,
-        "price": 1000,
-        "type" : "armor",
-        "equippable" : true
-    },
-    "Brass Cuirass Armor": {
-        "description": "A valious cuirass armor",
-        "armor": 320,
-        "price": 1500,
-        "type" : "armor",
-        "equippable" : true
-    },
-    "Power potion": {
-        "description": "This potion make you powerful",
-        "hpHeal":500,
-        "price": 2500,
-        "type" : "potion",
-        "equippable" : false
-    },
-    "Death potion": {
-        "description": "This potion can kill your enemies or you",
-        "hpHeal":250,
-        "price": 1500,
-        "type" : "potion",
-        "equippable" : false
-    },
-    "Flames potion": {
-        "description": "This potion can make your enemies burn",
-        "hpHeal": 50,
-        "price": 1200,
-        "type" : "potion",
-        "equippable" : false
-    },
-    "Resusrrection potion": {
-        "description": "This potion can resuscitate you when you die.",
-        "hpHeal":400,
-        "price": 2800,
-        "type" : "potion",
-        "equippable" : false
-    },
-    "Steel Helmet": {
-        "description": "Great for your protection",
-        "armor": 100,
-        "price": 1000,
-        "type" : "armor",
-        "equippable" : true
-    },
-    "Simple Helmet": {
-        "description": "Useful for your protection",
-        "armor": 60,
+    "27": {
+        "name": "Bone shield",
+        "description": "This shield is carved out of the bone of some unknown creature. It's lighter and stronger than most metals.",
+        "armor": 170,
         "price": 800,
-        "type" : "armor",
-        "equippable" : true
+        "type": "armor",
+        "equippable": true
+    },
+    "28": {
+        "name": "Magic shield",
+        "description": "This shield emanates some kind of protective energy from it.",
+        "armor": 200,
+        "price": 1300,
+        "type": "armor",
+        "equippable": true
+    },
+    "29": {
+        "name": "Runic Shield",
+        "description": "This shield has a large and thick body, with carved blue-shinning runes on it's edge. You can sense a very powerful force.",
+        "armor": 220,
+        "price": 1800,
+        "type": "armor",
+        "equippable": true
+    },
+    "30": {
+        "name": "Commoner's Robes",
+        "description": "A simple vestment, used by farmers and workers around town.",
+        "armor": 30,
+        "price": 150,
+        "type": "armor",
+        "equippable": true
+    },
+    "31": {
+        "name": "Leather Strap Armor",
+        "description": "Light armor suitable for hunters",
+        "armor": 50,
+        "price": 300,
+        "type": "armor",
+        "equippable": true
+    },
+    "32": {
+        "name": "Mail Armor",
+        "description": "Armor made of iron bidings.",
+        "armor": 70,
+        "price": 450,
+        "type": "armor",
+        "equippable": true
+    },
+    "33": {
+        "name": "Steel Armor",
+        "description": "Armor made from steel plaques and leather straps.",
+        "armor": 90,
+        "price": 600,
+        "type": "armor",
+        "equippable": true
+    },
+    "34": {
+        "name": "Steel Breastplate Armor",
+        "description": "Armor made from bended steel to fit a human torso.",
+        "armor": 110,
+        "price": 750,
+        "type": "armor",
+        "equippable": true
+    },
+    "35": {
+        "name": "Brass Cuirass Armor",
+        "description": "A valious cuirass breastplate armor.",
+        "armor": 130,
+        "price": 900,
+        "type": "armor",
+        "equippable": true
+    },
+    "36": {
+        "name": "Silver Armor",
+        "description": "A well balanced and resilient armor.",
+        "armor": 155,
+        "price": 1050,
+        "type": "armor",
+        "equippable": true
+    },
+    "37": {
+        "name": "Gold Armor",
+        "description": "A very well balanced and resilient golden armor.",
+        "armor": 180,
+        "price": 1200,
+        "type": "armor",
+        "equippable": true
+    },
+    "38": {
+        "name": "Magic Armor",
+        "description": "This armour emanates some kind of protective energy from it.",
+        "armor": 215,
+        "price": 1600,
+        "type": "armor",
+        "equippable": true
+    },
+    "39": {
+        "name": "Runic Armor",
+        "description": "This armor has a large and thick ancient metal body, with carved blue-shinning runes all over. You can sense a very powerful force.",
+        "armor": 240,
+        "price": 2200,
+        "type": "armor",
+        "equippable": true
+    },
+    "40": {
+        "name": "Commoner's hat",
+        "description": "A simple hat to protect one from the sun.",
+        "armor": 10,
+        "price": 80,
+        "type": "armor",
+        "equippable": true
+    },
+    "41": {
+        "name": "Leather cap",
+        "description": "Light cap suitable for hunters",
+        "armor": 25,
+        "price": 160,
+        "type": "armor",
+        "equippable": true
+    },
+    "42": {
+        "name": "Mail Helmet",
+        "description": "A Helmet made of iron bidings.",
+        "armor": 50,
+        "price": 240,
+        "type": "armor",
+        "equippable": true
+    },
+    "43": {
+        "name": "Steel Helm",
+        "description": "A helmet made from steel plaques and leather straps.",
+        "armor": 60,
+        "price": 320,
+        "type": "armor",
+        "equippable": true
+    },
+    "44": {
+        "name": "Steel Full Plate Helmet",
+        "description": "A Helmet made from bended steel to fit a human head.",
+        "armor": 80,
+        "price": 400,
+        "type": "armor",
+        "equippable": true
+    },
+    "45": {
+        "name": "Brass Cuirass Helm",
+        "description": "A valious cuirass full plate helmet.",
+        "armor": 90,
+        "price": 480,
+        "type": "armor",
+        "equippable": true
+    },
+    "46": {
+        "name": "Silver Helmet",
+        "description": "A well balanced and resilient helmet.",
+        "armor": 105,
+        "price": 560,
+        "type": "armor",
+        "equippable": true
+    },
+    "47": {
+        "name": "Gold Helmet",
+        "description": "A very well balanced and resilient golden Helmet.",
+        "armor": 125,
+        "price": 640,
+        "type": "armor",
+        "equippable": true
+    },
+    "48": {
+        "name": "Magic Helm",
+        "description": "This helm emanates some kind of protective energy from it.",
+        "armor": 145,
+        "price": 1100,
+        "type": "armor",
+        "equippable": true
+    },
+    "49": {
+        "name": "Runic Helm",
+        "description": "This helmet has a large and thick ancient metal body, with carved blue-shinning runes around it. You can sense a very powerful force.",
+        "armor": 170,
+        "price": 1500,
+        "type": "armor",
+        "equippable": true
+    },
+    "50": {
+        "name": "Commoner's gloves",
+        "description": "A simple pair of gloves to protect one from the hard manual labor.",
+        "armor": 15,
+        "price": 100,
+        "type": "armor",
+        "equippable": true
+    },
+    "51": {
+        "name": "Leather Gloves",
+        "description": "Light gloves suitable for hunters",
+        "armor": 30,
+        "price": 200,
+        "type": "armor",
+        "equippable": true
+    },
+    "52": {
+        "name": "Mail Bracers",
+        "description": "A pair of bracers made of iron bidings.",
+        "armor": 55,
+        "price": 300,
+        "type": "armor",
+        "equippable": true
+    },
+    "53": {
+        "name": "Steel Bracers",
+        "description": "A pair of bracers made from steel plaques and leather straps.",
+        "armor": 65,
+        "price": 400,
+        "type": "armor",
+        "equippable": true
+    },
+    "54": {
+        "name": "Steel Full Plate Bracers",
+        "description": "A pair of bracers made from bended steel to fit a human head.",
+        "armor": 85,
+        "price": 400,
+        "type": "armor",
+        "equippable": true
+    },
+    "55": {
+        "name": "Brass Cuirass Bracers",
+        "description": "A valious cuirass full plate pair of bracers.",
+        "armor": 95,
+        "price": 500,
+        "type": "armor",
+        "equippable": true
+    },
+    "56": {
+        "name": "Silver Bracers",
+        "description": "A well balanced and resilient pair of bracers.",
+        "armor": 110,
+        "price": 600,
+        "type": "armor",
+        "equippable": true
+    },
+    "57": {
+        "name": "Gold Bracers",
+        "description": "A very well balanced and resilient golden pair of bracers.",
+        "armor": 130,
+        "price": 700,
+        "type": "armor",
+        "equippable": true
+    },
+    "58": {
+        "name": "Magic Bracers",
+        "description": "This pair of bracers emanates some kind of protective energy from it.",
+        "armor": 150,
+        "price": 1200,
+        "type": "armor",
+        "equippable": true
+    },
+    "59": {
+        "name": "Runic Bracers",
+        "description": "This pair of bracers has larges and thicks ancient metal bodies, with carved blue-shinning runes around them. You can sense a very powerful force.",
+        "armor": 180,
+        "price": 1800,
+        "type": "armor",
+        "equippable": true
+    },
+    "60": {
+        "name": "Commoner's Shoes",
+        "description": "A simple pair of shoes to protect one from the hard labor.",
+        "armor": 15,
+        "price": 100,
+        "type": "armor",
+        "equippable": true
+    },
+    "61": {
+        "name": "Leather Booots",
+        "description": "Light pair of boots suitable for hunters",
+        "armor": 30,
+        "price": 200,
+        "type": "armor",
+        "equippable": true
+    },
+    "62": {
+        "name": "Mail Booots",
+        "description": "A pair of boots made of leather and covered by iron bidings.",
+        "armor": 55,
+        "price": 300,
+        "type": "armor",
+        "equippable": true
+    },
+    "63": {
+        "name": "Steel Booots",
+        "description": "A pair of boots made from steel plaques and leather straps.",
+        "armor": 65,
+        "price": 400,
+        "type": "armor",
+        "equippable": true
+    },
+    "64": {
+        "name": "Steel Full Plate Booots",
+        "description": "A pair of boots made from bended steel to fit a human head.",
+        "armor": 85,
+        "price": 500,
+        "type": "armor",
+        "equippable": true
+    },
+    "65": {
+        "name": "Brass Cuirass Booots",
+        "description": "A valious cuirass full plate pair of boots.",
+        "armor": 95,
+        "price": 600,
+        "type": "armor",
+        "equippable": true
+    },
+    "66": {
+        "name": "Silver Booots",
+        "description": "A well balanced and resilient pair of boots.",
+        "armor": 110,
+        "price": 700,
+        "type": "armor",
+        "equippable": true
+    },
+    "67": {
+        "name": "Gold Booots",
+        "description": "A very well balanced and resilient golden pair of boots.",
+        "armor": 130,
+        "price": 800,
+        "type": "armor",
+        "equippable": true
+    },
+    "68": {
+        "name": "Magic Booots",
+        "description": "This pair of boots emanates some kind of protective energy from it.",
+        "armor": 150,
+        "price": 1200,
+        "type": "armor",
+        "equippable": true
+    },
+    "69": {
+        "name": "Runic Booots",
+        "description": "This pair of boots has larges and thicks ancient metal bodies, with carved blue-shinning runes around them. You can sense a very powerful force.",
+        "armor": 180,
+        "price": 1800,
+        "type": "armor",
+        "equippable": true
+    },
+    "70": {
+        "name": "Potion of Minor Cure",
+        "description": "A potion that heals 50 hp",
+        "hpHeal": 50,
+        "price": 250,
+        "type": "potion",
+        "equippable": false
+    },
+    "71": {
+        "name": "Potion of Medium Cure",
+        "description": "A potion that heals 110 hp",
+        "hpHeal": 110,
+        "price": 500,
+        "type": "potion",
+        "equippable": false
+    },
+    "72": {
+        "name": "Potion of Severe Cure",
+        "description": "A potion that heals 150 hp",
+        "hpHeal": 150,
+        "price": 1000,
+        "type": "potion",
+        "equippable": false
+    },
+    "73": {
+        "name": "Potion of High Cure",
+        "description": "A potion that heals 200 hp",
+        "hpHeal": 200,
+        "price": 1500,
+        "type": "potion",
+        "equippable": false
     }
 }

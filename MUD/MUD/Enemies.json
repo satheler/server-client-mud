@@ -1,303 +1,272 @@
 {
-    "Skeleton": {
+    "0": {
+        "name": "Skeleton",
         "description": "A Skeleton.",
         "hp": 1000,
         "damage": 100,
         "armor": 20,
         "xp": 10,
-        "drops": { 
-            "itemName": "Brave Gladiator Blade"
-        }       
+        "drops": [0, 30, 20]
     },
-    "Zombie": {
+    "1": {
+        "name": "Zombie",
         "description": "An undead warrior.",
         "hp": 1075,
         "damage": 130,
         "armor": 25,
         "xp": 13,
-        "drops": { 
-            "itemName": "Brave Gladiator Blade"
-        }       
+        "drops": [50, 40, 60]
     },
-    "Goblin": {
+    "2": {
+        "name": "Goblin",
         "description": "A small humanoid being.",
         "hp": 1175,
         "damage": 140,
         "armor": 20,
         "xp": 15,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [1, 21, 31]
     },
-    "Hobgoblin": {
+    "3": {
+        "name": "Hobgoblin",
         "description": "Bigger and Stronger than a goblin.",
         "hp": 1235,
         "damage": 170,
         "armor": 30,
         "xp": 20,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [41, 51, 70]
     },
-    "Kobold": {
+    "4": {
+        "name": "Kobold",
         "description": "A small humanoid creature that is a mix of lizard and dog.",
         "hp": 1190,
         "damage": 140,
         "armor": 28,
         "xp": 15,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [32, 2, 22]
     },
-    "Bandit": {
+    "5": {
+        "name": "Bandit",
         "description": "A simple man that is trying to rob you.",
         "hp": 1025,
         "damage": 110,
         "armor": 15,
         "xp": 12,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [61, 3, 52]
     },
-    "Gnoll": {
+    "6": {
+        "name": "Gnoll",
         "description": "A humanoid hiena that is bigger than a common human.",
         "hp":1200 ,
         "damage": 175,
         "armor": 33,
         "xp": 20,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [7, 23, 42]
     },
-    "Orc": {
+    "7": {
+        "name": "Orc",
         "description": "A big carnivorous humanoid with green to gray skin.",
         "hp": 1350,
         "damage": 200,
         "armor": 35,
         "xp": 27,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [4, 24, 33]
     },
-    "Monstrous scorpion": {
+    "8": {
+        "name": "Monstrous scorpion",
         "description": "A huge scorpion.",
         "hp": 1240,
         "damage": 135,
         "armor": 20,
         "xp": 23,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [62, 43, 53]
     },
-    "Dire Wolf": {
+    "9": {
+        "name": "Dire Wolf",
         "description": "A huge wolf.",
         "hp": 1300,
         "damage": 175,
         "armor": 25,
         "xp": 25,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [5, 34, 44]
     },
-    "Ghoul": {
+    "10": {
+        "name": "Ghoul",
         "description": "A cannibal human with grotesque appearence.",
         "hp": 1125,
         "damage": 160,
         "armor": 30,
         "xp": 25,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [70, 54, 65]
     },
-    "Giant Spider": {
+    "11": {
+        "name": "Giant Spider",
         "description": "A huge spider. Some say that It used to be a monster clown.",
         "hp": 1250,
         "damage": 130,
         "armor": 20,
         "xp": 23,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [6, 45, 55]
     },
-    "Brown Dire Bear": {
+    "12": {
+        "name": "Brown Dire Bear",
         "description": "A Huge bear.",
         "hp": 1450,
         "damage": 180,
         "armor": 30,
         "xp": 33,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [72, 53, 64]
     },
-    "Green Slime": {
+    "13": {
+        "name": "Green Slime",
         "description": "An unintelligent blob o live goo.",
         "hp": 1100,
         "damage": 130,
         "armor": 10,
         "xp": 17,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [71, 63, 34]
     },
-    "Bugbear": {
+    "14": {
+        "name": "Bugbear",
         "description": "A savage and bloodlusted goblinoid creature.",
         "hp": 1350,
         "damage": 165,
         "armor": 30,
         "xp": 25,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [71, 8, 44]
     },
-    "Centaur": {
+    "15": {
+        "name": "Centaur",
         "description": "A half man, half horse creature.",
         "hp": 1500,
         "damage": 200,
         "armor": 35,
         "xp": 40,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [9, 56, 66]
     },
-    "Chimera": {
+    "16": {
+        "name": "Chimera",
         "description": "A grotesque fusion of a lion, a goat and a snake.",
         "hp": 1650,
         "damage": 210,
         "armor": 33,
         "xp": 47,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [10, 25, 36]
     },
-    "Cyclops": {
+    "17": {
+        "name": "Cyclops",
         "description": "A giant humanoid with a single eye.",
         "hp": 1750,
         "damage": 250,
         "armor": 40,
         "xp": 62,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [10, 46, 57]
     },
-    "Demon": {
+    "18": {
+        "name": "Demon",
         "description": "A humanoid creature with leathery wings and horns, born from the deep pits of hell.",
         "hp": 1600,
         "damage": 220,
         "armor": 35,
         "xp": 55,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [12, 47, 67]
     },
-    "Imp": {
+    "19": {
+        "name": "Imp",
         "description": "Small humanoid with leathery wings and horns. Smaller and weaker version of demons.",
         "hp": 1400,
         "damage": 185,
         "armor": 25,
         "xp": 35,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [73, 11, 66]
     },
-    "Duegar": {
+    "20": {
+        "name": "Duegar",
         "description": "Also know as gray dwarfs, these muscular humanoid creatures are greed, ferocious and smaller than a average human.",
         "hp": 1650,
         "damage": 235,
         "armor": 43,
         "xp": 50,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [73, 13, 26]
     },
-    "Gargoyle": {
+    "21": {
+        "name": "Gargoyle",
         "description": "A winged stone creature.",
         "hp": 1450,
         "damage": 195,
         "armor": 50,
         "xp": 45,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [72, 17, 25]
     },
-    "Hill Giant": {
+    "22": {
+        "name": "Hill Giant",
         "description": "A huge, stupid looking creature with a tree as weapon.",
         "hp": 1800,
         "damage": 270,
         "armor": 55,
         "xp": 60,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [73, 48, 17]
     },
-    "Golem": {
+    "23": {
+        "name": "Golem",
         "description": "A stone giant humanoid devoid of any intelligence, driven only by basic instinct.",
         "hp": 1750,
         "damage": 260,
         "armor": 65,
         "xp": 65,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [58, 68, 48]
     },
-    "Hell Hound": {
+    "24": {
+        "name": "Hell Hound",
         "description": "A huge black dog with fiery aspects.",
         "hp": 1600,
         "damage": 245,
         "armor": 37,
         "xp": 48,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [14, 36, 46]
     },
-    "Lich": {
+    "25": {
+        "name": "Lich",
         "description": "A creature that is the remains of a great wizard who embraced the undeath.",
         "hp": 1600,
         "damage": 310,
         "armor": 50,
         "xp": 75,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [28, 18, 38]
     },
-    "Lizardfolk": {
+    "26": {
+        "name": "Lizardfolk",
         "description": "A humanoid lizard, usually a little bigger than a human.",
         "hp": 1480,
         "damage": 190,
         "armor": 37,
         "xp": 35,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [15, 27, 73]
     },
-    "Minotaur": {
+    "27": {
+        "name": "Minotaur",
         "description": "A savage humanoid bull.",
         "hp": 1650,
         "damage": 225,
         "armor": 47,
         "xp": 45,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [16, 26, 37]
     },
-    "Red Dragon": {
+    "28": {
+        "name": "Red Dragon",
         "description": "A huge, red, lizard-like monster with giant leathery wings. It's said that dragons are the creators of everything that is know.",
         "hp": 2500,
         "damage": 420,
         "armor": 90,
         "xp": 185,
-        "drops": { 
-            "itemName": 
-        }       
+        "drops": [59, 49, 69]
     },
-    "Tarrasque": {
+    "29": {
+        "name": "Tarrasque",
         "description": "Legend says that a colossal creature can wake from it's sleep and start a rampage of destruction.",
         "hp": 3000,
         "damage": 500,
         "armor": 100,
         "xp": 230,
-        "drops": { 
-            "itemName": 
-        }       
-    },
-
+        "drops": [39, 29, 19]
+    }
 }
