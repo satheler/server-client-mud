@@ -14,7 +14,7 @@
     "2": {
         "name": "Hunters Camp",
         "description": "This camp is abandoned, or maybe not. Be careful who you meet.",
-        "type" : "City",
+        "type" : "Dungeon",
         "enemies": [5, 2, 3]
     },
     "3": {
@@ -178,5 +178,29 @@
         "description": "An ancient burial chamber of considerable size.",
         "type" : "Dungeon",
         "enemies": [1, 10, 25]
+    },
+    "30": {
+        "name": "Flame Palace",
+        "description": "Everything in this palace is ablaze, even the ground is red hot. Inside the palace there is a huge fire throne...",
+        "type" : "Rune",
+        "enemies": [30]
+    },
+    "31": {
+        "name": "Waterfall Castle",
+        "description": "There is no brick or wood here, every column is a torrent of water, every wall is a waterfall. In the center of the castle there is a gigantic and deep dark underwater hole...",
+        "type" : "Rune",
+        "enemies": [31]
+    },
+    "32": {
+        "name": "Peak of a Thousand Bridges",
+        "description": "There's wooden rope bridges everywhere, above you, under you, at your sides. All the bridges are large enought for one person to pass. You can't see the ground from up here, all the way down you can see just clouds. At the top of the peak there's something like a nest...",
+        "type" : "Rune",
+        "enemies": [32]
+    },
+    "33": {
+        "name": "Rocky Pyramid in the Desert",
+        "description": "The desert outside is nothing but a wasteland. The pyramid seemed to be just a small room, but it's actually a huge underground hall, with colossal columns everywhere. You can see some kind of altar futher ahead in the hall...",
+        "type" : "Rune",
+        "enemies": [33]
     }
 }

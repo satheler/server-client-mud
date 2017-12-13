@@ -268,5 +268,41 @@
         "armor": 100,
         "xp": 230,
         "drops": [39, 29, 19]
+    },
+    "30": {
+        "name": "Bael",
+        "description": "This is Bael, also kwon as Beelzebub. Ruler of 66 legions of Infernal Spirits and the First Spirit King. He is bigger than a hill giant and looks like a muscular red fur humanoid cat.",
+        "hp": 8000,
+        "damage": 1200,
+        "armor": 230,
+        "xp": 1250,
+        "drops": [74, 29, 19]
+    },
+    "31": {
+        "name": "Vassago",
+        "description": "This is Vassago, also kwon as Busas. Govener of 26 legions of Spirits and the Third Spirit Might Prince. He is a huge bluish man with aspects of a ocean creature, bigger than a hill giant, but instead of legs his torso is fused in the neck of what it seems to be a giant crocodile, like a crocodile centaur.",
+        "hp": 10000,
+        "damage": 900,
+        "armor": 230,
+        "xp": 1250,
+        "drops": [75, 29, 19]
+    },
+    "32": {
+        "name": "Marbas",
+        "description": "This is Marbas, also kwon as Barbas. Govener of 36 legions of Spirits and the Fifth Spirit President. He is a huge green humanoid lion, bigger than a hill giant and with feathers insted of fur. At his back there's 3 pairs of huge wings.",
+        "hp": 9000,
+        "damage": 1000,
+        "armor": 240,
+        "xp": 1250,
+        "drops": [76, 29, 19]
+    },
+    "33": {
+        "name": "Agares",
+        "description": "This is Agares, also kwon as Agreas. Govener of 31 legions of Spirits and the Second Spirit Duke. He is a huge yellow bearded man, bigger than a hill giant, with a rocky like skin and pointed ears.",
+        "hp": 8000,
+        "damage": 900,
+        "armor": 260,
+        "xp": 1250,
+        "drops": [77, 29, 19]
     }
 }

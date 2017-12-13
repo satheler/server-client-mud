@@ -590,5 +590,33 @@
         "price": 1500,
         "type": "potion",
         "equippable": false
+    },
+    "74": {
+        "name": "Rune of Fire",
+        "description": "A polygonal-shaped red gem with a rune carved on its smooth surface.",
+        "price": 4000,
+        "type": "rune",
+        "equippable": false
+    },
+    "75": {
+        "name": "Rune of Water",
+        "description": "A round-shaped blue gem with a rune carved on its smooth surface.",
+        "price": 4000,
+        "type": "rune",
+        "equippable": false
+    },
+    "76": {
+        "name": "Rune of Wind",
+        "description": "A triangular-shaped green gem with a rune carved on its smooth surface.",
+        "price": 4000,
+        "type": "rune",
+        "equippable": false
+    },
+    "77": {
+        "name": "Rune of Earth",
+        "description": "A square-shaped yellow gem with a rune carved on its smooth surface.",
+        "price": 4000,
+        "type": "rune",
+        "equippable": false
     }
 }
