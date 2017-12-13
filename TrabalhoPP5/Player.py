@@ -16,6 +16,7 @@ class Player(object):
         self.battleEnemy = None
         self.lastCity = None
         self.inventory = Inventory()
+        self.connection = None
 
     def setMap(self,room):
         self.room = room

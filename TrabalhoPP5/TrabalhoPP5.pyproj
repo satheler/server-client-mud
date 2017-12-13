@@ -42,6 +42,9 @@
     <Compile Include="Player.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="PlayersInteract.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Room.py">
       <SubType>Code</SubType>
     </Compile>

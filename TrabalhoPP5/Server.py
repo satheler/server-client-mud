@@ -1,10 +1,13 @@
 import socket
 import random
+import _thread
 from FileReaderJSON import FileReaderJSON
 from MapCreator import MapCreator
 from Player import Player
+from PlayersInteract import PlayersInteract
+from Shop import Shop
 from Battle import Battle
-import _thread
+
 
 class Server(object):
     
@@ -16,6 +19,8 @@ class Server(object):
         self.socket.bind((self.host,self.port))
         self.socket.listen(10)           
         self.map = None
+        self.playersInteract = PlayersInteract()
+        self.shop = Shop()
         self.enemies = []
         self.itens = []
         self.cityCommandsString = ""
@@ -64,6 +69,7 @@ class Server(object):
         player.room = self.map[0]
         player.lastCity = self.map[0]
         player.room.players.append(player)
+        player.connection = connection
         self.players.append(player)
 
 
@@ -92,7 +98,7 @@ class Server(object):
     def cityCommands(self,player,command,connection):       
         
         if command == 'shop':
-            response = "show the shop"
+            response = self.shop.enterShop(player,connection)
         elif command == 'commands':
             response = self.cityCommandsString
         elif command != '': 
@@ -151,6 +157,8 @@ class Server(object):
             response = self.equipItem(player,connection)
         elif command == 'observe':
             response = player.room.description
+        elif command == 'players':
+            response = self.playersInteract.startInteract(player,self.players)
         return response
 
     def dungeonCommands(self,player,command,connection): 
